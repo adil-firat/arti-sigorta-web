@@ -1,0 +1,477 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.side-menu {
+  display: none;
+}
+
+/* gerektiğinde görünür hale getir */
+.show-menu {
+  display: block;
+}
+
+
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-transform: none;
+ 
+}
+
+/* nav styles */
+
+p {
+  font-family: 'Inter', sans-serif;
+  
+}
+
+.nav {
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 20px;
+  background-color: #F5F7F9;
+
+}
+
+.logo {
+  font-size: 1.0rem;
+  color: #F5F7F9;
+  padding-left: 20px;
+}
+
+.hamburger {
+  padding-right: 20px;
+  cursor: pointer;
+}
+
+.hamburger .line {
+  display: block;
+  width: 40px;
+  height: 5px;
+  margin-bottom: 10px;
+  background-color: black;
+}
+
+.nav__link {
+  color: #FF7300;
+  position: fixed;
+  width: 94%;
+  top: 5rem;
+  left: 18px;
+  background-color:#F5F7F9 ;
+}
+
+.nav__link a {
+  border-radius: 20px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  padding: 10px 0;
+}
+
+/* login btn */
+.login-btn {
+  background-color: #4CAF50;
+  /* Normal durum rengi */
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 100px;
+  cursor: pointer;
+  font-size: 19px;
+
+}
+
+
+
+.login-btn:hover {
+  background-color: #1D1E1E;
+  transition-duration: 1s;
+  /* Hover durum rengi (aynı renk) */
+}
+
+
+
+
+/* login btn finish */
+.nav__link a:hover {
+  border-radius: 20px;
+  background-color: #FF7300;
+  transition: 1s;
+}
+
+.hide {
+  display: none;
+}
+
+@media screen and (min-width: 925px) {
+  .nav__link {
+    display: block;
+    position: static;
+    width: auto;
+    margin-right: 20px;
+    background: none;
+  }
+
+  .nav__link a {
+    display: inline-block;
+    padding: 15px 20px;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+}
+
+/* CONTENTS */
+.content {
+  height: 50em;
+  background-color: #F5F7F9;
+  justify-content: space-around;
+
+
+}
+
+
+@media screen and (max-width: 665px) {
+  .content {
+    height: 85em;
+  }
+}
+
+.content-title {
+  font-size: 50px;
+  color: #1D1E1E;
+
+}
+
+.main-1 {
+  font-size: 18px;
+  color: #1D1E1E;
+
+}
+
+.div-box {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.content-2 {
+  margin-top: 35px;
+  height: 50em;
+  background-color: white;
+  justify-content: space-around;
+}
+
+.content-3 {
+  margin-top: 35px;
+  height: 50em;
+  background-color: white;
+  justify-content: space-around;
+}
+
+/* CONTENTS FINISH */
+
+/* Card */
+
+.card {
+  
+  display: inline-block;
+  background-color: white;
+  margin-right: 40px;
+  border-radius: 5%;
+  width: 150px;
+  height: 100px;
+  font-size: 20px;
+  margin-top: 50px;
+  padding-bottom: 5%;
+
+
+}
+
+@media screen and (max-width: 665px) {
+  .card {
+    height: 100px;
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+
+  }
+}
+
+.card:hover {
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.3);
+  transition: 1s;
+}
+
+/* .kasko-1 {} */
+span {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-style: italic;
+
+}
+
+p {
+  margin-top: 20px;
+  font-size: 15px;
+  color: gray;
+}
+
+/* Teklif Al */
+.container {
+  overflow: hidden;
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #F5F7F9;
+  border-radius: 100px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.quote-form {
+  margin-top: 20px;
+}
+
+/* define form input style */
+.quote-form input[type="text"],
+.quote-form input[type="email"],
+.quote-form input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 100px;
+  border-style: groove;
+}
+/* Set button styling */
+.quote-form button {
+  border-radius: 100px;
+  background-color: #4CAF50;
+  color: white;
+  font-size: 19px;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+.quoteResult{
+  font-size: 10px;
+}
+
+.quote-form button:hover 
+/* On button hover, change bg color to dark grey. */{
+  background-color: #1D1E1E;
+  transition-duration: 1.3s;
+}
+
+
+/* Section Start */
+
+/* FOOTER */
+
+
+
+* {
+  font-family: 'Inter', sans-serif;
+}
+
+section {
+  width: 100%;
+  display: inline-block;
+  background: #333;
+  height: 50vh;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.footer-distributed {
+  background: white;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font: bold 16px sans-serif;
+  padding: 55px 50px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right {
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left {
+  width: 40%;
+}
+
+/* The company logo */
+
+.footer-distributed h3 {
+  color: black;
+  font: normal 36px 'Montserrat', cursive;
+  margin: 0;
+}
+
+.footer-distributed h3 span {
+  color: #45a049;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links {
+  color: black;
+  margin: 20px 0 12px;
+  padding: 0;
+}
+
+.footer-distributed .footer-links a {
+  display: inline-block;
+  line-height: 1.8;
+  font-weight: 400;
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer-distributed .footer-company-name {
+  color: #222;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center {
+  width: 35%;
+}
+
+.footer-distributed .footer-center i {
+  background-color: #33383b;
+  color: black;
+  font-size: 25px;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 42px;
+  margin: 10px 15px;
+  vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope {
+  font-size: 17px;
+  line-height: 38px;
+}
+
+.footer-distributed .footer-center p {
+  display: inline-block;
+  color: black;
+  font-weight: 400;
+  vertical-align: middle;
+  margin: 0;
+}
+
+.footer-distributed .footer-center p span {
+  display: block;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 2;
+}
+
+.footer-distributed .footer-center p a {
+  color: #45a049;
+  text-decoration: none;
+  ;
+}
+
+.footer-distributed .footer-links a:before {
+  content: "|";
+  font-weight: 300;
+  
+  font-size: 20px;
+  left: 0;
+  color: black;
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.footer-distributed .footer-links .link-1:before {
+  content: none;
+}
+
+/* Footer Right */
+
+.footer-distributed .footer-right {
+  width: 20%;
+}
+
+.footer-distributed .footer-company-about {
+  line-height: 20px;
+  color: #92999f;
+  font-size: 13px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.footer-distributed .footer-company-about span {
+  display: block;
+  color: black;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons {
+  margin-top: 20px;
+ 
+  
+}
+
+.footer-distributed .footer-icons a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  background-color: #33383b;
+  border-radius: 2px;
+  font-size: 20px;
+  color: black;
+  text-align: center;
+  line-height: 35px;
+  margin-right: 3px;
+  margin-bottom: 5px;
+}
+
+/* footer responsive  */
+
+@media (max-width: 880px) {
+
+  .footer-distributed {
+    font: bold 14px sans-serif;
+  }
+
+  .footer-distributed .footer-left,
+  .footer-distributed .footer-center,
+  .footer-distributed .footer-right {
+    display: block;
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  .footer-distributed .footer-center i {
+    margin-left: 0;
+  }
+
+}
