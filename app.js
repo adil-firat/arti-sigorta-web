@@ -35,3 +35,4 @@ function validateAndSendEmail() {
   let fullName = prompt("Bizi Nereden Duydunuz ? ")
   let title = document.querySelector("#title")
   title.innerHTML =  `${title.innerHTML} <small style="color:red">${fullName}</small>`
+  document.getElementById("title").style.display = "none"
