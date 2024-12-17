@@ -1,6 +1,6 @@
 Proje Adı ve Amaçları: "Artı Sigorta - Sigorta Hizmetleri Web Sitesi".
 
-Kurulum Talimatları: Kullacılar siteyi yerel ortamda çalıştırmalıdır, güvenlik düzeyi henüz iyi seviyede değil. Bu projede:HTML, CSS VE JavaScript Kullanılmıştır.
+Kurulum Talimatları: Kullacılar siteyi yerel ortamda çalıştırmalıdır, güvenlik düzeyi henüz iyi seviyede değil. Bu projede:HTML, CSS Ve JavaScript Kullanılmıştır.
 
 Temel Özellikler ve Kullanım: Sigorta çeşitleri kullanıcıya göre değişebilir, teklif alma süreci kullanıcının ve müşterinin yaşı, basamağı, ve değişkenlere göre değişiklik gösterir. İletişim Bilgilerimiz başka hiç bir yer ile paylaşılamaz.
 
